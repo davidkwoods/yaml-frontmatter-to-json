@@ -1,0 +1,45 @@
+{
+  "name": "grunt-yaml-frontmatter-to-json",
+  "description": "Turns files with YAML front matter into json files with properties and content",
+  "version": "0.1.0",
+  "homepage": "https://github.com/davidkwoods/yaml-frontmatter-to-json",
+  "author": {
+    "name": "David Woods",
+    "email": "dwoods@vertigo.com"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/davidkwoods/yaml-frontmatter-to-json.git"
+  },
+  "bugs": {
+    "url": "https://github.com/davidkwoods/yaml-frontmatter-to-json/issues"
+  },
+  "licenses": [
+    {
+      "type": "MIT",
+      "url": "https://github.com/davidkwoods/yaml-frontmatter-to-json/blob/master/LICENSE-MIT"
+    }
+  ],
+  "main": "Gruntfile.js",
+  "engines": {
+    "node": ">= 0.8.0"
+  },
+  "scripts": {
+    "test": "grunt test"
+  },
+  "devDependencies": {
+    "grunt-contrib-jshint": "~0.1.1",
+    "grunt-contrib-clean": "~0.4.0",
+    "grunt-contrib-nodeunit": "~0.1.2",
+    "grunt": "~0.4.1",
+    "moment": "~2.0.0",
+    "yaml-front-matter": "~1.0.3",
+    "marked": "~0.2.8"
+  },
+  "peerDependencies": {
+    "grunt": "~0.4.1"
+  },
+  "keywords": [
+    "gruntplugin"
+  ]
+}
